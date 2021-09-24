@@ -27,6 +27,7 @@
     "fs-extra": "^10.0.0"
   },
   "dependencies": {
-    "commander": "^8.1.0"
+    "commander": "^8.1.0",
+    "vscode-theme-to-monaco-theme-web": "^1.0.0"
   }
 }
