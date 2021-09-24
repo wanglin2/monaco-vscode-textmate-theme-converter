@@ -1,0 +1,32 @@
+{
+  "name": "vscode-theme-to-monaco-theme-node",
+  "version": "1.0.0",
+  "description": "VSCode转换成monaco editor主题",
+  "author": "wanglin",
+  "repository": "https://github.com/wanglin2/monaco-vscode-textmate-theme-converter",
+  "homepage": "https://github.com/wanglin2/monaco-vscode-textmate-theme-converter",
+  "bugs": {
+    "url": "https://github.com/wanglin2/monaco-vscode-textmate-theme-converter/issues"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "monaco-editor",
+    "monaco-textmate",
+    "monaco",
+    "editor",
+    "vscode"
+  ],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "bin": {
+    "mvttc": "src/npx-script.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "dependencies": {
+    "commander": "^8.1.0"
+  }
+}

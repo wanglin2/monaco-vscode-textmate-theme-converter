@@ -1,0 +1,21 @@
+{
+  "name": "vscode-theme-to-monaco-theme-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "scripts": {
+    "build": "npm run buildUMD && npm run buildModule",
+    "buildUMD": "webpack build --config ./webpack.config.umd.js",
+    "buildModule": "webpack build --config ./webpack.config.module.js"
+  },
+  "author": "wanglin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
