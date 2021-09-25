@@ -1,3 +1,5 @@
+本项目基于[https://github.com/Nishkalkashyap/monaco-vscode-textmate-theme-converter](https://github.com/Nishkalkashyap/monaco-vscode-textmate-theme-converter)项目修改而来，精简优化了其代码，并修复了一些缺陷，添加了新功能，而且将其拆分成了两个包。
+
 本仓库包含两个包：
 
 # vscode-theme-to-monaco-theme-node
